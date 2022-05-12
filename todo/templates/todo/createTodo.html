@@ -1,0 +1,7 @@
+{% extends 'todo/base.html' %} {% block content %}
+<form action="">
+  {% csrf_token %} {{form}}
+  <input type="submit" />
+</form>
+
+{% endblock content %}
